@@ -1,4 +1,4 @@
 ﻿function Test1()
 {
-  Log.Message("hello!!")
+  Log.Message("hello world!!")
 }
