@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="stack"/>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object left" type="I" value="417"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi82259859104005.png"/>
+					<Prp name="datetime" type="D" value="46180.7701157407"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="click point x" type="I" value="628"/>
+					<Prp name="object bottom" type="I" value="681"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="659"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageOnlineShoppingSiteForMobiles2.link599.panel599"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="721"/>
+					<Prp name="click point y" type="I" value="678"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object left" type="I" value="417"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="datetime" type="D" value="46180.7708644213"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="click point x" type="I" value="569"/>
+					<Prp name="object bottom" type="I" value="681"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="659"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageOnlineShoppingSiteForMobiles2.link599.panel599"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="721"/>
+					<Prp name="click point y" type="I" value="670"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (152, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageOnlineShoppingSiteForMobiles2.link599.panel599&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.flipkart.com/search?q=iron%20box&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off&quot;, 1).FindElement(&quot;//div[2]//div[3]//a/div[contains(@class, 'QiMO5r')]&quot;))"/>
+			<Prp name="date" type="D" value="46181.0000323958"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Navigating to the https://www.flipkart.com/ page."/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="URL: https://www.flipkart.com/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="date" type="D" value="46180.9999909722"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="datetime" type="D" value="46180.7708245718"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="1048"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1928"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="message" type="S" value="The 'Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers! - Google Chrome' window was maximized."/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="date" type="D" value="46180.9999918403"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object left" type="I" value="426"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi82252234104003.png"/>
+					<Prp name="datetime" type="D" value="46180.7700231481"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="205"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="165"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageOnlineShoppingSiteForMobiles.headerSearchIcon.formSearchIcon.textboxQ"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1247"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object left" type="I" value="426"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="datetime" type="D" value="46180.7708291319"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="205"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="165"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageOnlineShoppingSiteForMobiles.headerSearchIcon.formSearchIcon.textboxQ"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1223"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="message" type="S" value="The text 'iron box' was entered in the text editor."/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageOnlineShoppingSiteForMobiles.headerSearchIcon.formSearchIcon.textboxQ&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.flipkart.com/&quot;).FindElement(&quot;//header//div/form//input[@name='q']&quot;))"/>
+			<Prp name="date" type="D" value="46180.9999967477"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object left" type="I" value="1077"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi82262906104006.png"/>
+					<Prp name="datetime" type="D" value="46180.770150463"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="click point x" type="I" value="1256"/>
+					<Prp name="object bottom" type="I" value="1031"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="989"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageItmfd7bea8656268.panel2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1305"/>
+					<Prp name="click point y" type="I" value="1013"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object left" type="I" value="1153"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="datetime" type="D" value="46180.7709267593"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="click point x" type="I" value="1191"/>
+					<Prp name="object bottom" type="I" value="1020"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="1000"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageItmfd7bea8656268.panel2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1229"/>
+					<Prp name="click point y" type="I" value="1010"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (38, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageItmfd7bea8656268.panel2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.flipkart.com/usha-armorar1100wb-1100-w-dry-iron/p/itmfd7bea8656268?pid=IRNFR9JHCWJYZAKQ&amp;lid=LSTIRNFR9JHCWJYZAKQWG4RLG&amp;marketplace=FLIPKART&amp;q=iron+box&amp;store=j9e%2Fabm%2Fa0u&amp;spotlightTagId=default_BestsellerId_j9e%2Fabm%2Fa0u&amp;srno=s_1_3&amp;otracker=search&amp;otracker1=search&amp;fm=Search&amp;iid=0bae672e-3872-4cec-890f-c82de0d67a44.IRNFR9JHCWJYZAKQ.SEARCH&amp;ppt=sp&amp;ppn=sp&amp;ssid=oke8v041mo0000001780857002047&amp;qH=946a177bc1a425de&amp;ov_redirect=true&amp;ov_redirect=true&quot;).FindElement(&quot;//div[17]//div[2]&quot;))"/>
+			<Prp name="date" type="D" value="46181.0000947454"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object left" type="I" value="928"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi82249281104001.png"/>
+					<Prp name="datetime" type="D" value="46180.7699884259"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="395"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="356"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageOnlineShoppingSiteForMobiles.textbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1263"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object left" type="I" value="928"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="datetime" type="D" value="46180.7708268982"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="395"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="356"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageOnlineShoppingSiteForMobiles.textbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1263"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'[Esc]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageOnlineShoppingSiteForMobiles.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.flipkart.com/&quot;).FindElement(&quot;//form/div/input[@type='text']&quot;))"/>
+			<Prp name="date" type="D" value="46180.9999948264"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{6944DEF1-6A32-458D-8786-ACC709A22F38}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The browser is already running."/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Google Chrome"/>
+			<Prp name="date" type="D" value="46180.9999502199"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="2"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object left" type="I" value="426"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi822522341040031.png"/>
+					<Prp name="datetime" type="D" value="46180.7700462963"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="205"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="165"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageOnlineShoppingSiteForMobiles.headerSearchIcon.formSearchIcon.textboxQ"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1247"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object left" type="I" value="426"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="datetime" type="D" value="46180.770831331"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="205"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="165"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageOnlineShoppingSiteForMobiles.headerSearchIcon.formSearchIcon.textboxQ"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1223"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageOnlineShoppingSiteForMobiles.headerSearchIcon.formSearchIcon.textboxQ&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.flipkart.com/&quot;).FindElement(&quot;//header//div/form//input[@name='q']&quot;))"/>
+			<Prp name="date" type="D" value="46180.9999992593"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>

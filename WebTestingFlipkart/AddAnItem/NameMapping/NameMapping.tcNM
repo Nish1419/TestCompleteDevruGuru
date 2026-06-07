@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{B16533B9-A40B-46F5-817E-82EFC64CD9F3}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{A47D5396-BC6A-4150-870A-8E8E51BE76B5}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{07592764-EDCA-4794-8ADE-F809FEBE8CD9}">
+								<Image FileName="1938673118" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{66B881B0-B9E0-4A69-9F42-395744261A30}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{DC4FDC5A-E414-4B6B-9191-0F0BCCF968F5}">
+										<Image FileName="-671392785" Left="0" Top="121" Right="1920" Bottom="1040" />
+										<TypeInfo Item0="{2280D4C6-809A-4E8F-9B72-E50DC73E40D5}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageFlipkartGoogleSearch" Key="{5F9230B0-C0C5-4D0B-A455-94F91B064D02}">
+								<Image FileName="991559655" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkFlipkart" Key="{CEFCD756-699B-40E0-8EBC-20C855D51073}">
+										<Image FileName="742040332" Left="230" Top="266" Right="396" Bottom="310" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Flipkart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//a[contains(@class, &apos;zReHs&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;rso&apos;]//div//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFlipkart" Key="{CD72312F-812F-4004-A5A0-72923353DBF1}">
+										<Image FileName="742040332" Left="230" Top="291" Right="297" Bottom="322" />
+										<TypeInfo Item0="{049E3543-DBE8-4A75-8AAF-CF548F1CDBBA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Flipkart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//a/h3[contains(@class, &apos;LC20lb&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;www.flipkart.com&apos;)]/h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//div//a/h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageOnlineShoppingSiteForMobiles" Key="{2F812425-558C-4EE7-83C0-C6ECF7490BEF}">
+								<Image FileName="991559655" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.flipkart.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{1E3325F7-9C38-47F2-87F7-FAF7D5136563}">
+										<Image FileName="1199201554" Left="0" Top="87" Right="1920" Bottom="1040" />
+										<TypeInfo Item0="{049E3543-DBE8-4A75-8AAF-CF548F1CDBBA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="div[contains(., &apos;Get access to your Orders, Wishlist and Recommendations&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="div[contains(@class, &apos;mcO4kT&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerSearchIcon" Key="{253CDC79-809B-4FA0-8C9F-77E83499790E}">
+										<Image FileName="-1483698618" Left="360" Top="153" Right="1560" Bottom="217" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Search Icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;Csk5Ae&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSearchIcon" Key="{84222C70-C794-414C-91F4-5E7CE2512996}">
+										<Image FileName="-1483698618" Left="382" Top="165" Right="1247" Bottom="205" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[.=&apos;Search Icon&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;lilxh_&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxQ" Key="{9292CE08-36E0-4C16-A5D6-69EA1A7046F4}">
+										<Image FileName="-1483698618" Left="426" Top="165" Right="1247" Bottom="205" />
+										<TypeInfo Item0="{2431C0BE-60E9-4BE4-B36C-95C94E4D4068}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header//div/form//input[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div/form//input[@title=&apos;Search for Products, Brands and More&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div/form//input[contains(@class, &apos;nw1UBF&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{22817D1F-25CA-4D01-9BF3-E934559E3D5C}">
+										<Image FileName="-664572461" Left="928" Top="356" Right="1263" Bottom="395" />
+										<TypeInfo Item0="{2431C0BE-60E9-4BE4-B36C-95C94E4D4068}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;xkp9Hl&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/form/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageOnlineShoppingSiteForMobiles2" Key="{3BF8742E-4E7F-4897-A67D-7A8CFFA8B583}">
+								<Image FileName="991559655" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{3A8CA75E-1994-4D29-AC0A-6AB602D3D5C0}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.flipkart.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkBestseller" Key="{83853B5B-E041-45B6-9EB4-1BAD0B021F1E}">
+										<Image FileName="1009445639" Left="417" Top="304" Right="731" Bottom="584" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Bestseller&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div[3]//a[contains(@class, &apos;GnxRXv&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//div[2]/div[2]//div[3]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageUshaArmorar1100wb1100WDry" Key="{AE6507E1-C86B-4A9D-895B-D61BBABE1D34}">
+										<Image FileName="1009445639" Left="474" Top="354" Right="674" Bottom="534" />
+										<TypeInfo Item0="{049E3543-DBE8-4A75-8AAF-CF548F1CDBBA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//div[3]//a//img[contains(@src, &apos;q&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div[3]//a//img[contains(@class, &apos;UCc1lI&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div[3]//a//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBestseller" Key="{ECD85260-91E9-4BBE-8496-38E52FC32729}">
+										<Image FileName="-1284425169" Left="401" Top="288" Right="747" Bottom="723" />
+										<TypeInfo Item0="{049E3543-DBE8-4A75-8AAF-CF548F1CDBBA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//div[3]/div[contains(@class, &apos;RGLWAk&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link599" Key="{80C1461D-AA0A-4F40-BDE8-DF30C2E1DD9A}">
+										<Image FileName="-1902540170" Left="417" Top="659" Right="731" Bottom="681" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;41%% off&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div[3]//a[contains(@class, &apos;fb4uj3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel599" Key="{455694D2-CE97-499C-A65A-6E647B5A1960}">
+										<Image FileName="-1902540170" Left="417" Top="659" Right="721" Bottom="681" />
+										<TypeInfo Item0="{049E3543-DBE8-4A75-8AAF-CF548F1CDBBA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//div[3]//a/div[contains(@class, &apos;QiMO5r&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageItmfd7bea8656268" Key="{820557C5-3E68-40E2-8C04-7F88F939E86E}">
+								<TypeInfo Item0="{3A8CA75E-1994-4D29-AC0A-6AB602D3D5C0}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.flipkart.com/usha-armorar1100wb-1100-w-dry-iron/p/itmfd7bea8656268*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{DBAC331B-C5BD-4BAE-84F1-601774B1E56A}">
+										<Image FileName="409474169" Left="1314" Top="988" Right="1544" Bottom="1032" />
+										<TypeInfo Item0="{049E3543-DBE8-4A75-8AAF-CF548F1CDBBA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[17]//div[2]//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{F2C4E07C-B958-4A8C-B024-8369CF803F04}">
+										<Image FileName="-1874713816" Left="1077" Top="989" Right="1305" Bottom="1031" />
+										<TypeInfo Item0="{049E3543-DBE8-4A75-8AAF-CF548F1CDBBA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[17]//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{A47D5396-BC6A-4150-870A-8E8E51BE76B5}">
+			<Child Name="BrowserWindow" Owner="{07592764-EDCA-4794-8ADE-F809FEBE8CD9}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{DC4FDC5A-E414-4B6B-9191-0F0BCCF968F5}" />
+			</Child>
+			<Child Name="pageFlipkartGoogleSearch" Owner="{5F9230B0-C0C5-4D0B-A455-94F91B064D02}">
+				<Child Name="linkFlipkart" Owner="{CEFCD756-699B-40E0-8EBC-20C855D51073}">
+					<Child Name="textnodeFlipkart" Owner="{CD72312F-812F-4004-A5A0-72923353DBF1}" />
+				</Child>
+			</Child>
+			<Child Name="pageOnlineShoppingSiteForMobiles" Owner="{2F812425-558C-4EE7-83C0-C6ECF7490BEF}">
+				<Child Name="panel" Owner="{1E3325F7-9C38-47F2-87F7-FAF7D5136563}" />
+				<Child Name="headerSearchIcon" Owner="{253CDC79-809B-4FA0-8C9F-77E83499790E}">
+					<Child Name="formSearchIcon" Owner="{84222C70-C794-414C-91F4-5E7CE2512996}">
+						<Child Name="textboxQ" Owner="{9292CE08-36E0-4C16-A5D6-69EA1A7046F4}" />
+					</Child>
+				</Child>
+				<Child Name="textbox" Owner="{22817D1F-25CA-4D01-9BF3-E934559E3D5C}" />
+			</Child>
+			<Child Name="pageOnlineShoppingSiteForMobiles2" Owner="{3BF8742E-4E7F-4897-A67D-7A8CFFA8B583}">
+				<Child Name="linkBestseller" Owner="{83853B5B-E041-45B6-9EB4-1BAD0B021F1E}">
+					<Child Name="imageUshaArmorar1100wb1100WDry" Owner="{AE6507E1-C86B-4A9D-895B-D61BBABE1D34}" />
+				</Child>
+				<Child Name="panelBestseller" Owner="{ECD85260-91E9-4BBE-8496-38E52FC32729}" />
+				<Child Name="link599" Owner="{80C1461D-AA0A-4F40-BDE8-DF30C2E1DD9A}">
+					<Child Name="panel599" Owner="{455694D2-CE97-499C-A65A-6E647B5A1960}" />
+				</Child>
+			</Child>
+			<Child Name="pageItmfd7bea8656268" Owner="{820557C5-3E68-40E2-8C04-7F88F939E86E}">
+				<Child Name="panel" Owner="{DBAC331B-C5BD-4BAE-84F1-601774B1E56A}" />
+				<Child Name="panel2" Owner="{F2C4E07C-B958-4A8C-B024-8369CF803F04}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
